@@ -16,7 +16,7 @@ public class Bullet : MonoBehaviour
 
     void FixedUpdate()
     {
-        Rigidbody.velocity = Direction * Speed;
+        Rigidbody.velocity = Direction * Speed; 
     }
 
     public void SetDirection(Vector2 direction)
