@@ -15,6 +15,10 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D Rigidbody;
     private bool IsTouchingTheGround;
 
+    private float LastShoot;
+    [SerializeField]
+    private float ShootDelay;
+
     void Start()
     {
         Animator = GetComponent<Animator>();
@@ -36,9 +40,10 @@ public class PlayerMovement : MonoBehaviour
         else
             IsTouchingTheGround = false;
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time > LastShoot + ShootDelay)
         {
             Shoot();
+            LastShoot = Time.time;
         }
 
         if (Input.GetKeyDown(KeyCode.UpArrow) && IsTouchingTheGround)
@@ -58,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Animator.SetBool("Running", Horizontal != 0.0f);
+        Animator.SetBool("IsTouchingGround", IsTouchingTheGround);
     }
 
     void Shoot()

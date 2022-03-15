@@ -3397,6 +3397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bullet: {fileID: 7683214800794579696, guid: 6b40cbacc4468844aba682258dabdce8, type: 3}
   JumpForce: 150
+  ShootDelay: 0.25
 --- !u!50 &785974718
 Rigidbody2D:
   serializedVersion: 4
