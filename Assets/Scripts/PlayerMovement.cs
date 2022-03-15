@@ -15,7 +15,6 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D Rigidbody;
     private bool IsTouchingTheGround;
 
-
     void Start()
     {
         Animator = GetComponent<Animator>();
