@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "224787311158",
+    "project_id": "jambo-jungle",
+    "storage_bucket": "jambo-jungle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224787311158:android:d107c08b43ba9099830697",
+        "android_client_info": {
+          "package_name": "com.luislira.jambojungle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224787311158-s5cad54a2rub6jqdqck0s9mfahgdh16r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7hOngXfVdgjQIZ7ME6CBG-_bI786fIDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224787311158-s5cad54a2rub6jqdqck0s9mfahgdh16r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

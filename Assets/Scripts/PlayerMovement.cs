@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using Firebase.Firestore;
+using Firebase.Extensions;
 
 using UnityEngine;
 
