@@ -23,4 +23,10 @@ public class Bullet : MonoBehaviour
     {
         Direction = direction;
     }
+
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }
+
 }
